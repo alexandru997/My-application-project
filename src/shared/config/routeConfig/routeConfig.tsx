@@ -1,6 +1,6 @@
 import {RouteProps} from "react-router";
-import {HomePage} from "../../../pages/HomePage";
-import {DiscoverPage} from "../../../pages/DiscoverPage";
+import {HomePage} from "pages/HomePage";
+import {DiscoverPage} from "pages/DiscoverPage";
 
 export enum AppRoutes {
     HOME = 'home',
