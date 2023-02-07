@@ -1,5 +1,5 @@
 import {useTheme} from "./providers/ThemeProvider";
-import {classNames} from "../shared/lib/classNames/classNames";
+import {classNames} from "shared/lib/classNames/classNames";
 import './styles/index.scss'
 import {Link} from "react-router-dom";
 import AppRoute from "./providers/router/ui/AppRoute";
