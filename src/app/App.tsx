@@ -1,11 +1,10 @@
 import {useState} from 'react'
-import './App.css'
-
+import cls from './App.module.scss'
 function App() {
     const [count, setCount] = useState(0)
 
     return (
-        <div className="App">
+        <div className={cls.navigate}>
            <h1>Hello World</h1>
         </div>
     )
